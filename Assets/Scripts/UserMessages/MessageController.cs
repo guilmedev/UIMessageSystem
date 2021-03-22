@@ -37,6 +37,7 @@ namespace MessageSystem
         private void Awake()
         {
             Instance = this;
+            messageBackGround?.SetActive(false);
         }
 
         public void AddMessage(IMessage message)
